@@ -41,8 +41,6 @@ select {
   font-family: "Montserrat", sans-serif;
 }
 .section {
-  /*background: linear-gradient(var(--pink) 0%, var(--violet) 100%);
-    then night mode will be not good for this */
   background-color: #cecaca;
   min-height: 100vh;
   display: block;
@@ -103,6 +101,28 @@ select {
   margin-right: -15px;
   margin-left: -15px;
   position: relative;
+}
+
+.diff-sections {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  padding: 5px 5px;
+  gap: 30px;
+  cursor: pointer;
+  flex-wrap: wrap;
+  position: relative;
+  font-size: 30px;
+  padding-top: -35px;
+}
+.section-different:hover {
+  color: yellow;
+}
+.section-differnt {
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+  margin-bottom: 60px;
 }
 .section-title {
   -ms-flex: 0 0 100%;
@@ -367,12 +387,6 @@ select {
   text-align: center;
 }
 .home .intro img {
-  /*height: 300px;
-  width: 350px;
-  border-radius: 10%;
-  display: inline-block;
-  border: 8px solid #ffffff; */
-
   width: 350px;
   height: 300px;
   object-fit: cover;
@@ -436,7 +450,7 @@ select {
 .about .about-content .about-text p {
   font-size: 16px;
   line-height: 25px;
-  color: #504e70;
+  color: #070707;
   margin: 0;
 }
 .about .about-content .personal-info {
@@ -486,14 +500,14 @@ select {
   font-size: 24px;
   margin-bottom: 15px;
   font-weight: 700;
-  color: #302e4d;
+  color: #141416;
 }
 .about .about-content .skills .skill-item h4 {
   line-height: 40px;
   font-weight: 600;
   padding: 10px 0;
   font-size: 16px;
-  color: #302e4d;
+  color: #0a0a0a;
   text-transform: capitalize;
   margin: 0;
 }
@@ -615,6 +629,7 @@ select {
 }
 .project .project-item-inner .project-img {
   width: 100%;
+  height: 20%;
   display: block;
 }
 .project .project-item-inner .project-img img {

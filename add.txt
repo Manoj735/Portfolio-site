@@ -1,0 +1,2 @@
+width = 645
+height = 430
